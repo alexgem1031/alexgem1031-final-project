@@ -1,0 +1,68 @@
+h1 {
+    text-decoration: underline;
+  }
+
+.rod {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .rod {
+      width: 150px; 
+  }
+
+  .bead {
+      width: 15px;
+      height: 15px;
+      margin: 0 3px; 
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+}
+
+  .text {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .rod {
+      width: 180px;
+  }
+
+  .bead {
+      width: 18px;
+      height: 18px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+}
+
+  .text {
+      font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .rod {
+      width: 250px;
+  }
+
+  .bead {
+      width: 25px;
+      height: 25px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+}
+
+  .text {
+      font-size: 18px;
+  }
+}
